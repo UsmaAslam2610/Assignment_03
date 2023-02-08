@@ -1,83 +1,83 @@
 package com.example.assignment_3;
-
 public class LearningModel {
-    private String stdName;
+    private String studentName;
 
-    private String stdDept;
+    private String studentDept;
 
-    private int sabaq;
-    private boolean sabaqStatus;
+    private int sabak;
+    private boolean sabakStatus;
 
-    private int sabaqi;
-    private boolean sabaqiStatus;
+    private int sabki;
+    private boolean sabkiStatus;
 
     private int manzil;
     private boolean manzilStatus;
 
-    private String incorrectSabaq;
-    private String incorrectSabaqi;
+    private String incorrectSabak;
+    private String incorrectSabki;
     private String incorrectMazil;
 
-    public LearningModel(String stdName, String stdDept, int sabaq, boolean sabaqStatus, int sabaqi, boolean sabaqiStatus, int manzil, boolean manzilStatus, String incorrectSabaq, String incorrectSabaqi, String incorrectMazil) {
-        this.stdName = stdName;
-        this.stdDept = stdDept;
-        this.sabaq = sabaq;
-        this.sabaqStatus = sabaqStatus;
-        this.sabaqi = sabaqi;
-        this.sabaqiStatus = sabaqiStatus;
+
+    public LearningModel(String studentName,String studentDept, int sabak, boolean sabakStatus, int sabki, boolean sabkiStatus, int manzil, boolean manzilStatus, String incorrectSabak, String incorrectSabki, String incorrectMazil) {
+        this.studentName = studentName;
+        this.studentDept=studentDept;
+        this.sabak = sabak;
+        this.sabakStatus = sabakStatus;
+        this.sabki = sabki;
+        this.sabkiStatus = sabkiStatus;
         this.manzil = manzil;
         this.manzilStatus = manzilStatus;
-        this.incorrectSabaq = incorrectSabaq;
-        this.incorrectSabaqi = incorrectSabaqi;
+        this.incorrectSabak = incorrectSabak;
+        this.incorrectSabki = incorrectSabki;
         this.incorrectMazil = incorrectMazil;
     }
 
-    public String getStdName() {
-        return stdName;
+    public String getStudentName() {
+        return studentName;
     }
 
-    public void setStdName(String stdName) {
-        this.stdName = stdName;
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
     }
 
-    public String getStdDept() {
-        return stdDept;
+    public String getStudentDept() {
+        return studentDept;
     }
 
-    public void setStdDept(String stdDept) {
-        this.stdDept = stdDept;
+    public void setStudentDept(String studentDept) {
+        this.studentDept = studentDept;
     }
 
-    public int getSabaq() {
-        return sabaq;
+    public int getSabak() {
+        return sabak;
     }
 
-    public void setSabaq(int sabaq) {
-        this.sabaq = sabaq;
+    public void setSabak(int sabak) {
+        this.sabak = sabak;
     }
 
-    public boolean isSabaqStatus() {
-        return sabaqStatus;
+    public boolean isSabakStatus() {
+        return sabakStatus;
     }
 
-    public void setSabaqStatus(boolean sabaqStatus) {
-        this.sabaqStatus = sabaqStatus;
+    public void setSabakStatus(boolean sabakStatus) {
+        this.sabakStatus = sabakStatus;
     }
 
-    public int getSabaqi() {
-        return sabaqi;
+    public int getSabki() {
+        return sabki;
     }
 
-    public void setSabaqi(int sabaqi) {
-        this.sabaqi = sabaqi;
+    public void setSabki(int sabki) {
+        this.sabki = sabki;
     }
 
-    public boolean isSabaqiStatus() {
-        return sabaqiStatus;
+    public boolean isSabkiStatus() {
+        return sabkiStatus;
     }
 
-    public void setSabaqiStatus(boolean sabaqiStatus) {
-        this.sabaqiStatus = sabaqiStatus;
+    public void setSabkiStatus(boolean sabkiStatus) {
+        this.sabkiStatus = sabkiStatus;
     }
 
     public int getManzil() {
@@ -96,20 +96,20 @@ public class LearningModel {
         this.manzilStatus = manzilStatus;
     }
 
-    public String getIncorrectSabaq() {
-        return incorrectSabaq;
+    public String getIncorrectSabak() {
+        return incorrectSabak;
     }
 
-    public void setIncorrectSabaq(String incorrectSabaq) {
-        this.incorrectSabaq = incorrectSabaq;
+    public void setIncorrectSabak(String incorrectSabak) {
+        this.incorrectSabak = incorrectSabak;
     }
 
-    public String getIncorrectSabaqi() {
-        return incorrectSabaqi;
+    public String getIncorrectSabki() {
+        return incorrectSabki;
     }
 
-    public void setIncorrectSabaqi(String incorrectSabaqi) {
-        this.incorrectSabaqi = incorrectSabaqi;
+    public void setIncorrectSabki(String incorrectSabki) {
+        this.incorrectSabki = incorrectSabki;
     }
 
     public String getIncorrectMazil() {
@@ -120,21 +120,21 @@ public class LearningModel {
         this.incorrectMazil = incorrectMazil;
     }
 
+
     @Override
     public String toString() {
         return "LearningModel{" +
-                "Student Name='" + stdName + '\'' +
-                ", Student Department='" + stdDept + '\'' +
-                ", Sabaq=" + sabaq +
-                ", Sabaq Status=" + sabaqStatus +
-                ", Sabaqi=" + sabaqi +
-                ", Sabaqi Status=" + sabaqiStatus +
-                ", Manzil=" + manzil +
-                ", Manzil Status=" + manzilStatus +
-                ", Incorrect Sabaq='" + incorrectSabaq + '\'' +
-                ", Incorrect Sabaqi='" + incorrectSabaqi + '\'' +
-                ", Incorrect Mazil='" + incorrectMazil + '\'' +
+                "studentName='" + studentName + '\'' +
+                ", studentDept='" + studentDept + '\'' +
+                ", sabak=" + sabak +
+                ", sabakStatus=" + sabakStatus +
+                ", sabki=" + sabki +
+                ", sabkiStatus=" + sabkiStatus +
+                ", manzil=" + manzil +
+                ", manzilStatus=" + manzilStatus +
+                ", incorrectSabak='" + incorrectSabak + '\'' +
+                ", incorrectSabki='" + incorrectSabki + '\'' +
+                ", incorrectMazil='" + incorrectMazil + '\'' +
                 '}';
     }
 }
-
